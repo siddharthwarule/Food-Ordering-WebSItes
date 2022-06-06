@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+.nav-list li {
+    text-decoration:none; 
+    padding: 2px 3px;
+     
+}
+.nav-list{
+    color: rgb(238, 230, 230);
+    width: 80%;
+     display: flex;
+        list-style-type:none;
+}
+
+.backGround{
+    background-color:rgb(22, 21, 21);
+    background-size: cover;
+    
+}
+
+
+
+#navbar{
+    flex-direction: column;
+}
+.optionlist{
+    flex-direction: column;
+}
+.services{
+    flex-direction: column;
+}
+#position{
+    flex-direction: column;
+}
+#home{
+    flex-direction: column;
+    height: 300px;
+}
+#home::before{
+    height: 680px;
+}
+#order{
+    margin-top: 1000px;
+}
+#home p{
+   font-size: 16px;
+}
+#home h1{
+    font-size: 38px;
+}

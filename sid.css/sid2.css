@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+     padding:0;
+}
+.navbar{
+       
+    display: flex;
+}
+#position{
+    position: sticky;
+}
+.nav-list{
+    color: rgb(43, 34, 34);
+    width: 100%;
+     display: flex;
+        list-style-type:none;
+}
+.nav-list li {
+    text-decoration:none; 
+    padding: 26px 30px;
+     
+}
+.nav-list li a{
+    color: rgb(252, 244, 244);
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px;
+    border: radius 30px; 
+}
+.nav-list li a:hover{
+    padding: 20px;
+    color: black;
+    background-color:white;
+}
+.backGround{
+    background-color:gray;
+    background-size: cover;
+    
+}
+.card1{ 
+
+
+    display: flex;
+    padding: 30px;
+}
+.heading{
+    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin-top: 20px;
+     padding-left: 45%;
+     align-items: center;
+     justify-content: center;
+
+}
+.card{
+
+    padding: 50px;
+}
+.line2{
+    
+    display: flex;
+    
+}
+.card img{
+    
+   image-resolution: 10px 20px;
+   border-radius: 150px;
+
+ }
+.btn{
+    background-color: rgba(115, 192, 44, 0.37);
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    border: 2px solid rgb(240, 38, 38);
+}
+.card-text{
+padding: 10px;
+}
+.prise{
+     font-size: large;   
+    color: green;
+    padding: 10px;
+}
+.slide{
+    padding: 50px;
+    margin-left: 50px;
+}

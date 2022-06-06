@@ -1,0 +1,157 @@
+/* 
+    Author: siddharth warule;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+
+
+*{
+margin: 0;
+padding: 0;
+
+ }
+
+.menu u1{
+    list-style-type:none;
+    text-decoration: none;
+}
+.menu u1 li{
+    display: inline;
+    padding: 2%;
+}
+.menu{
+    text-align: center;
+}
+
+.wrapper{
+
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.text-center{
+    text-align: center;
+}
+.menu u1 li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;   
+
+}
+.flex_display{
+    display: flex;
+}
+.menu  {
+    display: flex;
+    background-color: rgba(238, 12, 12, 0.781);;
+}
+
+.col-4{
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+}
+
+
+.footer{
+    color: aliceblue;
+    background-color: rgba(238, 12, 12, 0.781);
+}
+
+.footer a{
+  color: blue;
+}
+.main-content{
+    background-color: rgb(181, 198, 216);
+    /* margin: 1%; */
+}
+.tbl-full{
+    padding: 20px;
+    margin-left: 50px;
+    width: 100%;
+}
+table tr th {
+    border-bottom: 2px solid black;
+    text-align: left;
+    padding: 5px;
+}
+table tr td{
+    padding: 10px;
+}
+.alignment{
+
+    margin-top: 8%;
+    margin-left: 30%;
+}
+
+
+table tr{
+    padding: 4px;
+}
+ .col{
+     font-weight: 5px;
+     padding: 5px;
+ }
+
+.row{
+    font-size: large;
+   padding: 10px;
+  margin-left: 50px;
+}
+
+
+
+.align{
+    margin-top: 50px;  
+    margin-left: 100px;
+    padding: 500px;
+}
+
+.btn-primery{
+    background-color: rgb(61, 61, 117);
+    
+    padding: 5px;
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.btn-primery:hover{
+    background-color: green;}
+
+.btn-secondery{
+    background-color: rgb(29, 187, 29); 
+    padding: 5px;
+     
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-secondery:hover{
+    background-color: rgb(134, 223, 19);}
+
+
+    .btn-turtury{
+        background-color: rgb(226, 79, 21); 
+        padding: 5px;
+         
+        color: rgb(240, 223, 223);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .btn-turtury:hover{
+        background-color: red;}
+
+       
+
+
+
+
+

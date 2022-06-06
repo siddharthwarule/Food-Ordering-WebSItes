@@ -1,0 +1,31 @@
+.contact{
+list-style: none;
+text-align: center;
+justify-content: center;
+margin: 3%;
+border: 2px;
+border: radius 30px; 
+/* border-radius:; */
+}
+
+.head{
+    
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+
+.card{
+    margin-left: 30px;
+    margin-top: 40px;
+    height: 300px;
+    width: 500px;
+}
+.form1{
+
+    border: 4px solid rgb(21, 184, 46);
+    border-radius: 10px;
+}
+
